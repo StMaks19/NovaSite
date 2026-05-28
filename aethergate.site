@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AetherGate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AetherGate</h1>
+        <p>Ласкаво просимо до світу пригод!</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Про проєкт</h2>
+            <p>Це демонстраційний сайт, створений за допомогою HTML та CSS.</p>
+        </section>
+
+        <section class="card">
+            <h2>Можливості</h2>
+            <ul>
+                <li>Швидкий дизайн</li>
+                <li>Адаптація під телефон</li>
+                <li>Легке розширення</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 AetherGate</p>
+    </footer>
+</body>
+</html>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background: #1e293b;
+}
+
+.card {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #334155;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1e293b;
+}
